@@ -1,0 +1,1 @@
+This is where all the other web pages should be stored apart from the **Homepage** which is at __index.html__
