@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+/** Tablet **/
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 850px) {
+
+}
+
+
+/* Extra Large (xl) e.g. Laptop & Desktop */
+@media (min-width: 1024px) {
+
+}
