@@ -5,6 +5,45 @@
 }
 
 
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #22db5d;
+    position: fixed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+    z-index: 10;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ham {
+    font-size: 25px;
+    color: #144A05;
+    padding-top: 10px;
+}
+
+
+.logo img {
+    width: 150px;
+}
+
+
 /** Tablet **/
 @media (min-width: 768px) {
 
@@ -12,11 +51,89 @@
 
 
 @media (min-width: 850px) {
+    .navbar {
+        text-transform: uppercase;
+        position: static;
+        width: 550px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        z-index: 0;
+        text-align: center;
+        justify-content: space-between;
+        padding-bottom: unset;
+        height: unset;
+        font-size: 15px;
+    }
+
+    .nav-button {
+        border: solid #000000 1px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 0;
+        width: 100px;
+        display: block;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .nav-items {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ham {
+        display: none;
+    }
+
+    .hamm {
+        display: none;
+    }
 
 }
 
 
 /* Extra Large (xl) e.g. Laptop & Desktop */
 @media (min-width: 1024px) {
+    .navbar {
+        text-transform: uppercase;
+        position: static;
+        width: 600px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        z-index: 0;
+        text-align: center;
+        justify-content: space-between;
+        padding-bottom: unset;
+        height: unset;
+        font-size: 15px;
+    }
+
+    .nav-button {
+        border: solid #000000 1px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 0;
+        width: 100px;
+        display: block;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .nav-items {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ham {
+        display: none;
+    }
+
+    .hamm {
+        display: none;
+    }
 
 }
