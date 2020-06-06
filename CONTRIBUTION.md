@@ -1,6 +1,6 @@
-# Contribution
+# Contribution Guidelines
 
-This 
+This document contains the guide for how to contribute using git and github. Please make sure you follow the guidelines so things do not get broken and so that your PRs would be accepted and merged.
 
 ## Git Workflow
 Here is the proposed git flow for contributors:
@@ -15,23 +15,30 @@ naming: feat/user-login
 git checkout -b feat/user-login 
 ```
 **Use lower case and separated by dashes**  
-Example of a bug ?
-Home Page Typo: Your branch naming: bug/homepage-typo
 
-Example of a chore ?
-Update Read Me: Your branch naming: chore/update-readme
+**Example of a bug**  
+Say you have a Home Page Typo:  
+branch naming: bug/homepage-typo
 
-Once you are assigned a task on clubhouse, create a branch on your local git and only push to that branch. 
-If you push to any other branch, you will be heavily penalized.
+**Example of a chore**  
+To Update Read Me:  
+Your branch naming: chore/update-readme
 
-A typical way to do so:
-run: git pull origin develop - You must pull from develop before or after checkout
+Once you are assigned an [issue](https://github.com/Geotechies-Uniuyo/geotechies/issues) or wants to work on a feature, create a branch on your local git and only push to that branch.  
+
+A typical way to do so:  
+run:  
+```git pull origin develop``` - You must pull from develop before or after checkout
 git checkout -b feat/user-login - You are in the feat/user-login branch now
 
-To push to github;
-git add .
+
+### Pushing to Github
+To push to github;  
+```
+git add . 
 git commit -m "feat: implemented user login
 git push origin feat/user-login - note how it ends with a branch. 
+```
 
 
 on github, you must make a PR to the develop branch, any PR to the master branch must be closed with immediate alacrity.
